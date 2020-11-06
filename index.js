@@ -283,9 +283,13 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
-  }
+function addArtist(list){
+  const newArray = list 
+
+  newArray.push({id: 20, name: "Your Name Here", years: "Your Birth Year - current day", genre: "Web Design", nationality: "Your Nationality Here", bio: "Add 1-2 sentences (or use lorem ipsum)" })
+  
+  return newArray
+}
 
   
 

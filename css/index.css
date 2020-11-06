@@ -142,8 +142,32 @@ button:hover{
 }
 
 
-@media only screen and (max-width: 500px) {
-    body {
-      background-color: lightblue;
+
+@media only screen and (max-width: 900px) {
+    nav{
+        width:50%;
     }
-  }
+}
+
+
+@media only screen and (max-width: 500px) {
+    nav{
+        width:90%;
+    }
+    nav a {
+        font-size: 2rem;
+    }
+    .title-container h1 {
+        font-size: 3.6rem;
+    }
+    .artists-container{
+        width:60%;
+        flex-wrap: wrap;
+    }
+    .artist{
+        width:100%;
+    }
+    .artist img {
+        height: auto;
+    }
+}
